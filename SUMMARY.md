@@ -1,4 +1,4 @@
-**The Mapillary Vistas Dataset for Semantic Understanding of Street Scenes** is a dataset for instance segmentation, semantic segmentation, and object detection tasks. It is used in the automotive industry. 
+**The Mapillary Vistas Dataset for Semantic Understanding of Street Scenes v2.0** is a dataset for instance segmentation, semantic segmentation, and object detection tasks. It is used in the automotive industry. 
 
 The dataset consists of 25000 images with 1872892 labeled objects belonging to 124 different classes including *sky*, *road*, *pole*, and other: *vegetation*, *car*, *building*, *static*, *street light*, *traffic sign (front)*, *curb*, *sidewalk*, *lane marking - straight line*, *lane marking - dashed line*, *fence*, *traffic sign (back)*, *signage - advertisement*, *traffic sign - direction (front)*, *utility pole*, *person*, *terrain*, *wall*, *curb cut*, *traffic light - general (upright)*, *vehicle group*, *signage - store*, *ground*, *dynamic*, *traffic light - pedestrians*, and 96 more.
 

@@ -14,7 +14,7 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "Mapillary Vistas"
-PROJECT_NAME_FULL: str = "The Mapillary Vistas Dataset for Semantic Understanding of Street Scenes"
+PROJECT_NAME_FULL: str = "The Mapillary Vistas Dataset for Semantic Understanding of Street Scenes v2.0"
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
