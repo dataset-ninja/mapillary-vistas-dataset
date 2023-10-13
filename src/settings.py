@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Mapillary Vistas"
 PROJECT_NAME_FULL: str = "The Mapillary Vistas Dataset for Semantic Understanding of Street Scenes"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -38,7 +38,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://www.mapillary.com/dataset/vistas"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 7138566
+PREVIEW_IMAGE_ID: int = 7133057
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/mapillary-vistas-dataset"
@@ -79,34 +79,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.mapillary.com/"
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
-    "root-level classes": [
-        "animal",
-        "construction",
-        "human",
-        "marking",
-        "marking-only",
-        "nature",
-        "object",
-        "void",
-    ],
-    "macro-level classes": [
-        "barrier",
-        "flat",
-        "structure",
-        "person",
-        "rider",
-        "continuous",
-        "discrete",
-        "arrow",
-        "hatched",
-        "symbol",
-        "sign",
-        "support",
-        "traffic-light",
-        "traffic-sign",
-        "vehicle",
-    ],
-    "__POSTTEXT__": "Explore them in supervisely labeling tool",
+    "__POSTTEXT__": "Additionally, every object could be categorized into 8 root-level classes: ***animal***, ***construction***, ***human***, ***marking***, ***marking-only***, ***nature***, ***object***, and ***void***, or into 15 macro-level classes: ***arrow***, ***barrier***, ***continuous***, ***discrete***, ***flat***, ***hatched***, ***person***, ***rider***, ***sign***, ***structure***, ***support***, ***symbol***, ***traffic-light***, ***traffic-sign***, and ***vehicle***. Explore them in supervisely labeling tool",
 }
 TAGS: Optional[List[str]] = None
 
