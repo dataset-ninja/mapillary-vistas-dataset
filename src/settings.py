@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Mapillary Vistas Dataset"
+PROJECT_NAME: str = "Mapillary Vistas"
 PROJECT_NAME_FULL: str = "The Mapillary Vistas Dataset for Semantic Understanding of Street Scenes"
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
@@ -38,7 +38,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://www.mapillary.com/dataset/vistas"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = None
+PREVIEW_IMAGE_ID: int = 7138566
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/mapillary-vistas-dataset"
