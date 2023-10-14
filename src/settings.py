@@ -79,7 +79,9 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.mapillary.com/"
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
-    "__POSTTEXT__": "Additionally, every object could be categorized into 8 root-level classes: ***animal***, ***construction***, ***human***, ***marking***, ***marking-only***, ***nature***, ***object***, and ***void***, or into 15 macro-level classes: ***arrow***, ***barrier***, ***continuous***, ***discrete***, ***flat***, ***hatched***, ***person***, ***rider***, ***sign***, ***structure***, ***support***, ***symbol***, ***traffic-light***, ***traffic-sign***, and ***vehicle***. Explore them in supervisely labeling tool",
+    "root-level classes":["animal", "construction", "human", "marking", "marking-only", "nature", "object",  "void"],
+    "macro-level classes":["arrow", "barrier", "continuous", "discrete", "flat", "hatched", "person", "rider", "sign", "structure", "support", "symbol", "traffic-light", "traffic-sign", "vehicle"],
+    "__POSTTEXT__": "Explore them in supervisely advanced labeling tool",
 }
 TAGS: Optional[List[str]] = None
 
