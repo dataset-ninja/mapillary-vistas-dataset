@@ -61,7 +61,7 @@ PAPER: Optional[
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[
     Union[str, List[str], Dict[str, str]]
-] = "https://github.com/mapillary/mapillary_vistas"
+] = {"GitHub":"https://github.com/mapillary/mapillary_vistas"} 
 
 CITATION_URL: Optional[
     str
@@ -73,15 +73,16 @@ AUTHORS: Optional[List[str]] = [
     "Peter Kontschieder",
     "Mapillary Research",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["research@mapillary.com"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Mapillary, Sweden"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.mapillary.com/"
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
-    "root-level classes":["animal", "construction", "human", "marking", "marking-only", "nature", "object",  "void"],
-    "macro-level classes":["arrow", "barrier", "continuous", "discrete", "flat", "hatched", "person", "rider", "sign", "structure", "support", "symbol", "traffic-light", "traffic-sign", "vehicle"],
-    "__POSTTEXT__": "Explore them in supervisely advanced labeling tool",
+    "root-level classes": ["animal", "construction", "human", "marking", "marking-only", "nature", "object",  "void"],
+    "macro-level classes": ["arrow", "barrier", "continuous", "discrete", "flat", "hatched", "person", "rider", "sign", "structure", "support", "symbol", "traffic-light", "traffic-sign", "vehicle"],
+    "__POSTTEXT__": "Explore them in supervisely labeling tool",
 }
 TAGS: Optional[List[str]] = None
 
@@ -130,6 +131,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
