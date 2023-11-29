@@ -1,6 +1,6 @@
 Dataset **Mapillary Vistas** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/k/P/XU/ey9D9NGgoGxpvWn8IOMWg8GpgsbcrjLVVWE8I14iIXg5rf1OQz6oEuTfzfCLcmPKJMsu6r0Vo4dGhl7cqdKe9G4pMS3SoqIIVtTBtRNRUMZBBy7PXxOM0KM750lp.tar)
+ [Download](https://www.dropbox.com/scl/fi/a697x07s6hs10n3be31km/mapillary-vistas-DatasetNinja.tar?rlkey=5c98gfmhv6g2f6tkz0qm814xe&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
